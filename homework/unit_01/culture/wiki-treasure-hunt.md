@@ -16,14 +16,20 @@ Please do not use any resource other than the class wiki
 to answer these questions.
 
 1.  What are the three requirements for completing this course?
+Attendance, homework, and projects 
 2.  At what URL can you find a series of videos covering the terminal, created
-    by one of GA's senior instructors?
-3.  What book by Douglas Crockford is on our recommended reading list?
+    by one of GA's senior instructors? 
+ Matt Huntington
+3.  What book by Douglas Crockford is on our recommended reading list? 
+Java Script the good parts
 4.  According to our Git style guide, when writing the detailed description of
     a commit in its commit message, what three types of things are most
-    important to mention?
+    important to mention? 
 5.  What does a bug report need to have before it can be submitted to the bug
     journal?
+What you thought the error was
+What the issue turned out to be
+How you solved it
 6.  There are three Git tutorials referenced in the Wiki. What are they?
 7.  List at least two basic UI styling tips that will help your projects
     look good.
