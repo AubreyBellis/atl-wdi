@@ -25,7 +25,7 @@ var resFour = true;
 
 // 5. !null && !undefined
 var resFive;
-var resFive = false;
+var resFive = true;
 
 /// Flow Control ///
 

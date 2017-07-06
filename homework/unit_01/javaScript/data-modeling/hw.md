@@ -60,13 +60,37 @@ track of whether tasks have been completed, it will also keep track of
 how long each task took to complete. Tasks can be grouped into 'projects' to
 keep them organized.
 
-> Answer here
+> A Task has:
+> -   a name
+> -   a time when it is begun
+> -   a time when it is completed
+>
+> A Project has:
+> -   a name
+> -   a description
+> -   a set of tasks
+
 
 ### 2. Photo Sharing App
 
 In this app, users can upload photos to their accounts and share them with others. These photos can be grouped into albums.
 
-> Answer here
+var photo = {
+  name: 'photo from beach',
+  date: 'February 2016',
+  url: 'images/photo1.jpg'
+};
+
+var album = {
+  name: 'Trip to the Bahamas',
+  setOfPhotos: ['images/photo1.jpg', 'images/photo2.jpg', 'images/photo3.jpg', 'images/photo4.jpg', 'images/photo5.jpg']
+};
+
+var user = {
+  username: 'marenwoodruff',
+  imagesUploaded: ['images/photo1.jpg', 'images/photo2.jpg', 'images/photo3.jpg', 'images/photo4.jpg', 'images/photo5.jpg'],
+  albumsCreated: ['Trip to the Bahamas', 'Exploring Prague', 'Dream trip to Bali (to be added)']
+};
 
 ### 3. Home Automation Manager
 
@@ -75,7 +99,17 @@ track of the time and temperature of the house that it monitors, and use that
 information to turn on and off different lights and adjust the thermostat up
 and down.
 
-> Answer here
+
+var light = {
+  brightnessLevel: 'super bright',
+  location: 'living room',
+  name: 'chandlier'
+};
+
+var homeSystem = {
+  temp: '73 degrees',
+  setOfLights: ['living room', 'office', 'kitchen', 'bedroom', ' bathroom']
+};
 
 ### 4. Sneaker Store
 
@@ -83,8 +117,22 @@ This app will allow customers to browse a list of products (sneakers, in this
 case), add those products to a cart, and save that cart as a past order once the
 purchase is complete.
 
-> Answer here
+var product = {
+  name: 'Vitamix Ascent A2500 Blender, Black',
+  description: 'The best blender in the world.  Part blender, part food processor.  Can make soup, smoothies, sauces!  It is the item that will last forever- you can pass it on to your children.  So, spend the money now, and let them save later!',
+  price: '$499.95'
+};
 
+var vitamixOrder = {
+  product: 'vitamix',
+  quantity: 1
+};
+
+var order: {
+  setOfOrderItems: [vitamixOrder],
+  status: 'in progress',
+  dateCompleted: 'incomplete'
+};
 ## Representing Abstractions in Code
 
 Once you've chosen the abstractions that your app will use, the next step is to
@@ -110,8 +158,7 @@ A Rail Line has:
 
 The team has decided to represent these abstractions in the following way.
 
-```js
-// Station
+
 var exampleStation = {
   name: 'Downtown Crossing',
   description: "Downtown Crossing is a shopping district that is a small part of downtown Boston, Massachusetts, located due east of Boston Common and west of the Financial District..."
@@ -138,8 +185,7 @@ var exampleLine = {
 ```
 
 What are some advantages and disadvantages of choosing these representations? Please give at least one example of each.
-
-> Answer here
+----- The main advantage is the fact that each station has a name and is easy to identify. However, it doesn't tell you when the subway comes or where you should meet for it; which would need to be addressed before moving forward with these objects. 
 
 ### 6. Doctor Appointment App
 
@@ -241,9 +287,7 @@ What are some relative advantages and disadvantages of each representation?
 Under what circumstances might one representation be a better choice than the
 other? Are there any circumstances in which the other representation might be
 the better choice?
-
-> Answer here
-
+---- I prefer the first option over the second. It's much more detailed and maybe a bit 'overdone' but i'd rather have the patients & doctors names and info addressed in each object versus the generic layout of option 2. 
 ## Tying It Together
 
 ### 7. Tic-Tac-Toe
@@ -253,13 +297,39 @@ You've been tasked with building an in-browser tic-tac-toe game.
 a.  What are some possible entities that your application might use to model its
     data? Please pick at least two, with at least two properties apiece.
 
-  > Answer here
+  > A Player has...
+  > -   a username
+  > -   a URL to an avatar image
+  >
+  > A Game has...
+  > -   an X player
+  > -   an O player
+  > -   a set of moves that have been made by X and O
+  >
+  > A Move has...
+  > -   a player token (X or O)
+
 
 b.  How might those entities be represented in JavaScript code?
 
-  > Answer here
-
+   var examplePlayer = {
+    username: 'rickest_rick_there_is',
+    avatarURL: 'http://imgur.com/...'
+  };
+  var exampleMove = {
+    playerToken: 'X',
+    position: 3
+  };
+  var exampleGame = {
+    xPlayer: {
+      username: 'rickest_rick_there_is',
+      avatarURL: 'http://imgur.com/...'
+    },
+    oPlayer: {
+      username: 'morty',
+      avatarURL: 'http://imgur.com/...'
+    },
 c.  Justify your choices in a) and b). Why these entities? Why these
     representations?
 
-  > Answer here
+  I just tried to organize the infomation given to me in the best way I could. 
