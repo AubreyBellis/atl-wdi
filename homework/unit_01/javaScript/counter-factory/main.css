@@ -4,8 +4,14 @@ Copyright (C) 2016 Matt Brendzel under the GNU General Public License.
 See LICENSE for details.
 */
 
+h1 {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
 body {
   padding: 20px;
+  text-align: center; 
 }
 
 .component {
