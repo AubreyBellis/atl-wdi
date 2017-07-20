@@ -8,12 +8,12 @@ const hbs = require('hbs');
 app.set("view engine", "hbs");
 
 app.get('/', (req,res) => {
-     res.send(index);
+     res.send('Welcome to Aubreys Pizza Express');
  });
 
-app.get('/topping/:type', function(req, res, next) {
+    app.get(`/topping/:type`, (req, res,next) => {
 
-    res.send ;{req.params.type};
+    res.send(`{{data}} + "Great Choice"`);
 });
 
 
