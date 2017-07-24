@@ -1,16 +1,11 @@
-<h1> You have {{pirates.length}} pirates! </h1>
+{{!-- <h1>OG Pirates!</h1>
+
 <ul>
   {{#each pirates}}
-
-    <li>Anne Bonny:<a href="/pirates/{{@index}} "> {{Bonny}}</a></li>
-    <li>Jsck Sparrow:<a href="/pirates/{{@index}} "> {{Sparrow}}</a></li> 
-    <li> Edward Teach:<a href="/pirates/{{@index}} "> {{Teach}}</a></li> 
-    <li>Jean Laffite:<a href="/pirates/{{@index}} "> {{Laffite}}</a></li> 
-    <li>Mary Read:<a href="/pirates/{{@index}} "> {{Read}}</a></li> 
-    <li>Joh Rackham:<a href="/pirates/{{@index}} "> {{Rackham}}</a></li> 
-    <br>
-    <br>
-    <a href="/pirates/new">Create a new pirate!</a>
-    <br>
+    <li><a href="/pirates/{{@index}}"><h2>{{name}}</h2></a></li>
   {{/each}}
 </ul>
+
+<form action="/pirates/new">
+    <input type="submit" value="Create a New Pirate" />
+</form> --}}

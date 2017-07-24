@@ -1,37 +1,45 @@
 //===========================
 // REQUIREMENTS
 //===========================
-var express = require("express");
-var app = express();
-var logger = require("morgan");
-var bodyParser = require("body-parser");
-var hbs = require('hbs');
+const  express = require("express");
+const  app = express();
+const  logger = require("morgan");
+const  bodyParser = require("body-parser");
+const  hbs = require('hbs');
+const methodOverride = require('method_override');
+
+const port        = process.env.PORT || 3000;
 
 
-//===========================
-// MIDDLEWARE
-//===========================
-//this is for morgan
-app.use(logger("dev"));
-//these are for bodyParser
+// //===========================
+// // MIDDLEWARE
+// //===========================
+// //this is for morgan
+app.use( logger('dev'));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+// //these are for bodyParser
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-//set handlebars as view engine
-app.set("view engine", "hbs");
+//method override
+app.use(methodOverride('_method'));
+//CSS STYLE LINK
+app.use(express.static(__dirname + '/public'));
+// //set handlebars as view engine
 app.set('views', './views');
+app.set("view engine", "hbs");
 
-//===========================
-// CONTROLLERS
-//===========================
+// //===========================
+// // CONTROLLERS
+// //===========================
 
 //controllers for `/pirates` resource
 var pirateController = require('./controllers/pirates.js');
 app.use("/pirates", pirateController);
 
 
-//===========================
-// LISTENERS
-//===========================
-app.listen(3000, function(req, res){
-	console.log("listening");
-});
+
+//controllers for `/pirates` resource
+var pirateController = require('./controllers/pirates.js');
+app.use("/pirates", pirateController);

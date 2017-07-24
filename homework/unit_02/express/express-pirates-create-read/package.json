@@ -1,0 +1,11 @@
+{
+  "name": "express-pirates-create-read",
+  "version": "1.0.0",
+  "description": "## Setup 1. Make sure that you are on the `master` branch of your class repo. Then run `git pull upstream master` to pull the latest materials from the instructors' repository. You shouldn't hit a merge conflict here, but if you do, flag down an instructor right away.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
