@@ -61,4 +61,11 @@
 //======================
 // EXPORTS
 //======================
-// export router with module.exports
+// // export router with module.exports
+// var UserModel = mongoose.model("User", UserSchema);
+// var ItemModel = mongoose.model("Item", ItemSchema);
+// //export your donut with module.exports()
+// module.exports = {
+//   User: UserModel,
+//   Item: ItemModel
+// };
