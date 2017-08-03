@@ -1,4 +1,10 @@
-export default [
+
+import React, { Component } from 'react';
+import './locationData.js';
+
+
+
+const locationData = [
   {
     name: "Atlanta — Westside",
     address: "1093 Hemphill Ave.",
@@ -32,4 +38,9 @@ export default [
     address: "2200 Avalon Blvd.",
     phone: "770-647-8811"
   }
-]
+];
+
+
+
+export default locationData;
+

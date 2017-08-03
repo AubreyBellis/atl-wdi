@@ -1,4 +1,9 @@
-export default [
+import React, { Component } from 'react';
+import pizzaData from './..pizzaData';
+
+
+
+export default specs [
   {
     name: "HONEY BBQ CHICKEN DELUXE",
     price: 16.75,
