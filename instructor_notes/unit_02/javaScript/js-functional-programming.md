@@ -259,6 +259,10 @@ The sum is 25
 
 - [Fun Fun Function Series on Functional Programming](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Functional Programming Workshop](https://nodeschool.io/)
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 - [Functional Programming Workshop](https://nodeschool.io/)
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -267,7 +271,11 @@ The sum is 25
 - [Master the Javascript Interview](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0#.9u4dyrpyc)
 - [Functional Programming in Javascript](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0#.9u4dyrpyc)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Introducing Reduce: Common Patterns](https://egghead.io/lessons/javascript-introducing-reduce-common-patterns)
+=======
+- [Introducing Reduce: Common Patterns](https://egghead.io/lessons/javascript-introducing-reduce-common-patterns)
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 - [Introducing Reduce: Common Patterns](https://egghead.io/lessons/javascript-introducing-reduce-common-patterns)
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca

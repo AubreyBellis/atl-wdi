@@ -1,6 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: Intro to React - CLI, Components
+=======
+title: Intro to React
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 title: Intro to React
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -13,7 +17,11 @@ competencies: Front-end frameworks
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Intro to React - CLI, Components
+=======
+# Intro to React
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 # Intro to React
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -21,6 +29,7 @@ competencies: Front-end frameworks
 ### Objectives
 
 - Describe why learning React is important
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Set up an React app and test that it works
 - Build a very basic component with fake data
@@ -45,6 +54,8 @@ Get with a partner and write down three websites that would have a terrible UX i
 
 ## What is React and Why Should You Learn it? (20 mins)
 =======
+=======
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 - Describe some benefits of front-end frameworks
 - Describe Single Page Applications
 - Describe Web Components
@@ -70,6 +81,9 @@ These are just two of the many examples of problems for which React provides ele
 * Then write down three websites that would have terrible UX if the page reloaded on every click. (You can't use the examples I gave though.)
 
 ## What is React? Why Should I Learn it?
+<<<<<<< HEAD
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
+=======
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 
 React is a client-side framework created by Facebook that is quickly taking over the development world. React builds on the progress made by previous front-end frameworks, such as EmberJS and AngularJS, but has its own set of goals and priorities.
@@ -81,7 +95,11 @@ While many other frameworks focus on the flow of data within a front-end applica
 Web Components represent a modern strategy for managing the size and complexity of front-end applications. As the demand for web- and mobile-friendly interfaces has grown, so has the average size and complexity of an app. As these applications become larger and more complex, so does the need for keeping things clean and DRY. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 While there are many different implementations of Web Components, all share the same common characteristics. In its simplest form, a Web Component is a set of closely-related HTML, JavaScript, and CSS that can be packaged up together to be re-used as many times as necessary. Some common examples of Web Components include:
+=======
+While there are many different implementations of Web Components, all share the same common characteristics. In its simplest form, a Web Component is a set of _closely-related_ HTML, JavaScript, and CSS that can be packaged up together to be re-used as many times as necessary. Some common examples of Web Components include:
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 While there are many different implementations of Web Components, all share the same common characteristics. In its simplest form, a Web Component is a set of _closely-related_ HTML, JavaScript, and CSS that can be packaged up together to be re-used as many times as necessary. Some common examples of Web Components include:
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -95,7 +113,11 @@ Each of these elements could be copied across your whole application, but as we 
 ### Benefits of React:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Solves complex problems using simple JavaScript. Unlike other frameworks, which require some proprietary knowledge. For example, turning each element of an array into a `<div>` tag in React simply requires a JavaScript `for-loop` or `map`. Doing the same in Angular looks like this: 
+=======
+* React solves complex problems using simple JavaScript. This is unlike other frameworks, which require more proprietary knowledge. For example, turning each element of an array into a `<div>` tag in React simply requires a JavaScript `.forEach()` or `.map()`. Doing the same in Angular looks like this: 
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 * React solves complex problems using simple JavaScript. This is unlike other frameworks, which require more proprietary knowledge. For example, turning each element of an array into a `<div>` tag in React simply requires a JavaScript `.forEach()` or `.map()`. Doing the same in Angular looks like this: 
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -104,8 +126,13 @@ Each of these elements could be copied across your whole application, but as we 
 	<div ng-repeat="item in itemsArray"></div>
 	```
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Allows us to re-use a full set of HTML, JavaScript, and CSS as many times as we want, while keeping our code completely DRY.
 * No longer have to refresh on every interaction
+=======
+* The framework allows us to re-use a full set of HTML, JavaScript, and CSS as many times as we want, while keeping our code completely DRY.
+* We will no longer have to refresh on every interaction. This improves both testing and User Experience.
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 * The framework allows us to re-use a full set of HTML, JavaScript, and CSS as many times as we want, while keeping our code completely DRY.
 * We will no longer have to refresh on every interaction. This improves both testing and User Experience.
@@ -132,7 +159,11 @@ Each of these elements could be copied across your whole application, but as we 
 
 * High level of interaction (like Facebook, Trello, Gmail)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Filling out a lot of forms (https://www.lawn.com/get-a-quote/)
+=======
+* Filling out a lot of forms (e.g. Turbotax)
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 * Filling out a lot of forms (e.g. Turbotax)
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -142,7 +173,11 @@ Each of these elements could be copied across your whole application, but as we 
 ### When NOT To Use Client Side Frameworks
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 You will see soon that Front End frameworks add a level of complexity
+=======
+You will see soon that Front End frameworks add another level of complexity to our apps.
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 =======
 You will see soon that Front End frameworks add another level of complexity to our apps.
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
@@ -164,6 +199,7 @@ Client-side routing requires something known as a **router**. As we will see a l
 
 ## Thinking In React
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 https://facebook.github.io/react/docs/thinking-in-react.html
 
@@ -445,6 +481,8 @@ Every time you use Angular to bind something in the UI, whether it be via handle
 - When you create an example controller from scratch, what type of JS function is this?
 - How do we render data in the view? What does the templating look like in Angular?
 =======
+=======
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 React requires us to think about our web applications in a very specific way. No longer will we have a dense, monolithic front-end application. Instead we should think of a page as the sum of as many small, distinct components as we can build. This way of thinking has been branded by the React team as **"Thinking In React"**.
 
 ### Take 10 minutes and read this article from the excellent React docs: [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
@@ -459,4 +497,7 @@ React requires us to think about our web applications in a very specific way. No
 
 
 
+<<<<<<< HEAD
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
+=======
 >>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
