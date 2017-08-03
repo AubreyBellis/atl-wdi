@@ -160,7 +160,11 @@ var celica = makeCar("Toy-Yoda Celica", "limegreen");
 
 This is the basic idea behind OOP: we define a **blueprint** for an object and use it to generate multiple instances of it!
 
+<<<<<<< HEAD
 ##Classes
+=======
+## Classes
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca
 
 ### Overview(10 minutes / 0: 35)
 
@@ -442,4 +446,8 @@ super ` mean?
 
 * [Inheritance and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [ES6 Classes and Javascript Prototypes](https://reinteractive.com/posts/235-es6-classes-and-javascript-prototypes)
+<<<<<<< HEAD
 * [Master the Javascript Interview: What's the Difference Between Class & Prototypical Inheritance](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.uzl8ohf8c)
+=======
+* [Master the Javascript Interview: What's the Difference Between Class & Prototypical Inheritance](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.uzl8ohf8c)
+>>>>>>> 4739f6189c4fbb8355cad28055c4edf5fda57bca

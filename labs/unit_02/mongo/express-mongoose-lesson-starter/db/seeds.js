@@ -53,3 +53,6 @@ diesel.save(function(err) {
   
   console.log('diesel created!');
 });
+
+
+db.close();
