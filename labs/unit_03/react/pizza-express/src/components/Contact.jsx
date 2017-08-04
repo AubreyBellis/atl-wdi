@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import Location from './components/Location.jsx';
+
 
 class Contact extends Component {
   render(){
     return (
-      <Locations />
+      <div id="contact" className="contact">
+      <h1> Contact information </h1>
+      </div>
     );
   }
 }

@@ -3,7 +3,7 @@ import pizzaData from './..pizzaData';
 
 
 
-export default specs [
+export default menu [
   {
     name: "HONEY BBQ CHICKEN DELUXE",
     price: 16.75,

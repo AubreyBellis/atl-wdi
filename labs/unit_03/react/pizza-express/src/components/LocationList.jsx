@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
-import locationData from '/..locationData.js';
-import Location from './components/Location'
-class LocationList extends Component {
-   
-    render () {
-        specs = [locationData];
-      return (
-            <div>
-                {specs.map((spec, i) => {
-                    return <Location key={i} name={spec.name} address={spec.address} phone={spec.phone} />
-                    })}
-             </div>
+import Location from './Location';
+import locationData from '../locationData.js';
 
-        );
+class Locations extends Component {
+    render() {
+        return(
+            <div id="locations">
+            <h1>Locations :</h1>
+            <div className="locations">
+                {locationData.map((location, i) => {
+                    return <Location key={i} location={location} />
+                })}
+            </div>
+            </div>
+        )
     }
-
 }
-
-export default LocationList;
+export default Locations;
 
 
 //   {
