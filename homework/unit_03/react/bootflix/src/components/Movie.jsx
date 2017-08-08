@@ -6,13 +6,10 @@ const Movie = () => {
   return (
     <section id="movie-listing">
       <div className="movie">
-        <h3>Movie Title</h3>
-        <p>
-          <strong>Released:</strong> 1984<br />
-          <strong>Directed By:</strong> Some director<br />
-          <em>Genre:</em>
-        </p>
-        <p>Plotline should go inside of here</p>
+       <p>
+      <em>Genre:</em>
+      </p>
+       
       </div>
     </section>
   );
