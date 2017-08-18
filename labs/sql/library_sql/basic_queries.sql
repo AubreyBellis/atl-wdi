@@ -1,4 +1,5 @@
 -- BASIC QUERIES
+<<<<<<< HEAD
 -- Unless otherwise stated, all queries shoUld retUrn all colUmns
 
 -- Get all information aboUt all aUthors
@@ -31,3 +32,35 @@ UPDATE title FROM book WHERE title = 'hella hustle';
 DELETE books FROM author WHERE author = 'Aubrey Ellis';
 -- Delete yoUr aUthor entry
 DELETE author FROM authors WHERE author = 'Aubrey Ellis';
+=======
+-- Unless otherwise stated, all queries should return all columns
+
+
+-- Get all information about all authors
+
+-- Get just the name and birth year of all authors
+
+-- Get all authors born in the 20th century or later
+
+-- Get all authors born in the USA
+
+-- Get all books published in 1985
+
+-- Get all books published before 1989
+
+-- Get just the title of all books.
+
+-- Get just the year that 'A Dance with Dragons' was published
+
+-- Get all books which have `the` somewhere in their title (hint, look up LIKE/ILIKE)
+
+-- Add yourself as an author
+
+-- Add two books that you'd like to write (you can hard-code your id as the author id)
+
+-- Update one of your books to have a new title
+
+-- Delete your books
+
+-- Delete your author entry
+>>>>>>> f6a9420fe749572f73141822de567a889b5d6e37
